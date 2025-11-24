@@ -139,6 +139,7 @@ body {
 .cartFavoriteSvg:hover {
     width: 55%;
 }
+
 .alignPart{
     display: flex;
     height:.6rem;
@@ -238,9 +239,9 @@ body {
 }
 
 .categoriesImages {
-    width: 104%;
-    height: 90%;
-    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
 }
 
 .categoriesImages:hover {
@@ -249,42 +250,12 @@ body {
 
 .categoriesPTag {
     font-weight: 600;
-}
-
-/* /////////Random Meal/////////// */
-
-.randomMealImg {
-    width: 90%;
-    border-radius: 0.5rem;
-}
-
-.randomMealHTag {
-    font-weight: 600;
-}
-
-.randomMealButton {
-    background-color: rgb(255, 106, 0);
-    width: 30%;
-    height: 17%;
-    border: none;
-    border-radius: 0.5rem;
-    color: whitesmoke;
-}
-
-.randomMealButton:hover {
-    transform: translateY(-0.2rem);
-    width: 31%;
-    height: 18%;
-    box-shadow: 0px 2px 5px 1px rgb(239, 132, 96);
-    color: black;
-}
-
-.randomMealPTag {
-    color: #64481f;
+    text-align: center;
 }
 
 
-/* //////////footer//////////// */
+
+
 
 .footerMain{
     text-align: center;
@@ -311,16 +282,3 @@ color: #64481f;    font-weight: 500;
 
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

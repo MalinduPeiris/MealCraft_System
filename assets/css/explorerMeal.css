@@ -10,6 +10,7 @@ body {
     background-color: whitesmoke;
     align-items: start;
     margin-top: -3rem;
+    margin-bottom: 15rem; 
 }
 
 #navNameAndLogoDiv {
@@ -151,78 +152,11 @@ body {
     border-radius: 2px;
 }
 
-/* ///   hero   /// */
-.heroMainDiv {
-    margin-top: 3rem;
-    text-align: center;
+/* hero */
+.heroDiv{
+    margin-top: 0px;
 }
 
-.heroImage {
-    width: 80%;
-    height: 35rem;
-    border-radius: 1rem;
-}
-
-.heroHTag {
-    position: absolute;
-    top: 40%;
-    left: 21%;
-    font-size: 2.7rem;
-    font-weight: 800;
-    color: rgb(255, 255, 255);
-    margin-bottom: -3rem;
-}
-
-.heroPTag {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: whitesmoke;
-}
-
-.heroSearchingComponents {
-    position: absolute;
-    top: 60%;
-    left: 32%;
-}
-
-.heroSearchSvg {
-    width: 3.5%;
-    margin-right: -2.1rem;
-    margin-bottom: .3rem;
-    position: relative;
-    /* background-color: rgb(146, 119, 44);
-    -webkit-background-clip: text; */
-}
-
-.heroSearchTxt {
-    width: 100%;
-    height: 3.2rem;
-    font-size: 1.2rem;
-    padding-left: 2.4rem;
-    border: none;
-    box-shadow: 1px 1px 7px 1px orange;
-    border-radius: .5rem;
-    color: rgb(146, 119, 44);
-    background-color: rgb(255, 255, 255);
-}
-
-.heroSearchBtn {
-    background-color: rgb(255, 106, 0);
-    color: whitesmoke;
-    position: absolute;
-    z-index: inherit;
-    left: 82%;
-    top: 13%;
-    width: 15%;
-    height: 75.5%;
-    border: transparent;
-    border-radius: .5rem;
-}
-
-/* //////// browse //////// */
 .categoryBtn {
     width: 100%;
     height: 100%;
@@ -233,13 +167,14 @@ body {
 
 .browseTitles {
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    margin-top: 4rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .categoriesImages {
-    width: 104%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     border-radius: 0.5rem;
 }
 
@@ -249,43 +184,11 @@ body {
 
 .categoriesPTag {
     font-weight: 600;
-}
-
-/* /////////Random Meal/////////// */
-
-.randomMealImg {
-    width: 90%;
-    border-radius: 0.5rem;
-}
-
-.randomMealHTag {
-    font-weight: 600;
-}
-
-.randomMealButton {
-    background-color: rgb(255, 106, 0);
-    width: 30%;
-    height: 17%;
-    border: none;
-    border-radius: 0.5rem;
-    color: whitesmoke;
-}
-
-.randomMealButton:hover {
-    transform: translateY(-0.2rem);
-    width: 31%;
-    height: 18%;
-    box-shadow: 0px 2px 5px 1px rgb(239, 132, 96);
-    color: black;
-}
-
-.randomMealPTag {
-    color: #64481f;
+    text-align: start;
 }
 
 
-/* //////////footer//////////// */
-
+/* footer */
 .footerMain{
     text-align: center;
     background-color: #c3c3c36b;
@@ -311,6 +214,14 @@ color: #64481f;    font-weight: 500;
 
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
 
 
 
