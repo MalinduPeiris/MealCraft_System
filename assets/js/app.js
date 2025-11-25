@@ -1,4 +1,8 @@
-
+document.getElementById("navSearchTxt").addEventListener("keypress",(e) => {
+    if (e.key === "Enter") {
+        homeSearching();
+    }
+});
 
 async function homeSearching() {
     let homeSearchedValue = document.getElementById("navSearchTxt");

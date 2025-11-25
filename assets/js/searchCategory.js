@@ -1,16 +1,16 @@
 async function selectCategory(num) {
     let getTiltle = document.getElementById(`explorerCategoryP${num}`).innerText;
     let getData = await fetchData(getTiltle);
-    console.log("sadassasas",getData);
-    
+    console.log("sadassasas", getData);
+
     setValues(getData, getTiltle);
-    
+
 }
 
 
 async function fetchData(title) {
     console.log("awa");
-    
+
     try {
         let res = await fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${title}`);
         let data = await res.json();
@@ -56,9 +56,9 @@ function setValues(data, getTiltle) {
             document.getElementById(`selectedPageDiv${index}`).style.display = "none";
             document.getElementById(`selectedPagePDiv${index}`).style.display = "none";
         }
-    }else{
+    } else {
         console.log("naaa");
-        
+
     }
 }
 
@@ -97,7 +97,13 @@ function showRecipe(data) {
         document.getElementById("mealsDetailsArea").innerText = "Area : " + data.meals[0].strArea;
         document.getElementById("mealsDetailsTags").innerText = "Tags : " + data.meals[0].strTags;
         document.getElementById("mealsDetailsInstructions").innerText = data.meals[0].strInstructions;
-        //document.getElementById("mealsDetailsVideo").src = data.meals[0].strYoutube;
+
+        let urlLink = data.meals[0].strYoutube;
+
+        let videoId = urlLink.split("v=")[1];
+        let newUrl = `https://www.youtube.com/embed/${videoId}`; 
+ 
+        document.getElementById("mealsDetailsVideo").src = newUrl;
         document.getElementById("heroImage").src = data.meals[0].strMealThumb;
 
         document.getElementById("ingrediend1").innerText = data.meals[0].strMeasure1 + " , " + data.meals[0].strIngredient1;
@@ -117,85 +123,12 @@ function showRecipe(data) {
         document.getElementById("ingrediend15").innerText = data.meals[0].strMeasure15 + " , " + data.meals[0].strIngredient15;
         document.getElementById("ingrediend16").innerText = data.meals[0].strMeasure16 + " , " + data.meals[0].strIngredient16;
 
-        document.getElementById("ingrediend1").innerText.trim() === "," ||
-            document.getElementById("ingrediend1").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv1").style.display = "none"
-            : document.getElementById("ingredienMainDiv1").style.display = "flex";
-
-        document.getElementById("ingrediend2").innerText.trim() === "," ||
-            document.getElementById("ingrediend2").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv2").style.display = "none"
-            : document.getElementById("ingredienMainDiv2").style.display = "flex";
-
-        document.getElementById("ingrediend3").innerText.trim() === "," ||
-            document.getElementById("ingrediend3").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv3").style.display = "none"
-            : document.getElementById("ingredienMainDiv3").style.display = "flex";
-
-        document.getElementById("ingrediend4").innerText.trim() === "," ||
-            document.getElementById("ingrediend4").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv4").style.display = "none"
-            : document.getElementById("ingredienMainDiv4").style.display = "flex";
-
-        document.getElementById("ingrediend5").innerText.trim() === "," ||
-            document.getElementById("ingrediend5").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv5").style.display = "none"
-            : document.getElementById("ingredienMainDiv5").style.display = "flex";
-
-        document.getElementById("ingrediend6").innerText.trim() === "," ||
-            document.getElementById("ingrediend6").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv6").style.display = "none"
-            : document.getElementById("ingredienMainDiv6").style.display = "flex";
-
-        document.getElementById("ingrediend7").innerText.trim() === "," ||
-            document.getElementById("ingrediend7").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv7").style.display = "none"
-            : document.getElementById("ingredienMainDiv7").style.display = "flex";
-
-        document.getElementById("ingrediend8").innerText.trim() === "," ||
-            document.getElementById("ingrediend8").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv8").style.display = "none"
-            : document.getElementById("ingredienMainDiv8").style.display = "flex";
-
-        document.getElementById("ingrediend9").innerText.trim() === "," ||
-            document.getElementById("ingrediend9").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv9").style.display = "none"
-            : document.getElementById("ingredienMainDiv9").style.display = "flex";
-
-        document.getElementById("ingrediend10").innerText.trim() === "," ||
-            document.getElementById("ingrediend10").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv10").style.display = "none"
-            : document.getElementById("ingredienMainDiv10").style.display = "flex";
-
-        document.getElementById("ingrediend11").innerText.trim() === "," ||
-            document.getElementById("ingrediend11").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv11").style.display = "none"
-            : document.getElementById("ingredienMainDiv11").style.display = "flex";
-
-        document.getElementById("ingrediend12").innerText.trim() === "," ||
-            document.getElementById("ingrediend12").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv12").style.display = "none"
-            : document.getElementById("ingredienMainDiv12").style.display = "flex";
-
-        document.getElementById("ingrediend13").innerText.trim() === "," ||
-            document.getElementById("ingrediend13").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv13").style.display = "none"
-            : document.getElementById("ingredienMainDiv13").style.display = "flex";
-
-        document.getElementById("ingrediend14").innerText.trim() === "," ||
-            document.getElementById("ingrediend14").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv14").style.display = "none"
-            : document.getElementById("ingredienMainDiv14").style.display = "flex";
-
-        document.getElementById("ingrediend15").innerText.trim() === "," ||
-            document.getElementById("ingrediend15").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv15").style.display = "none"
-            : document.getElementById("ingredienMainDiv15").style.display = "flex";
-
-        document.getElementById("ingrediend16").innerText.trim() === "," ||
-            document.getElementById("ingrediend16").innerText === ("null , null")
-            ? document.getElementById("ingredienMainDiv16").style.display = "none"
-            : document.getElementById("ingredienMainDiv16").style.display = "flex";
+        for (let index = 0; index < 16; index++) {
+            document.getElementById(`ingrediend${index + 1}`).innerText.trim() === "," ||
+                document.getElementById(`ingrediend${index + 1}`).innerText === ("null , null")
+                ? document.getElementById(`ingredienMainDiv${index + 1}`).style.display = "none"
+                : document.getElementById(`ingredienMainDiv${index + 1}`).style.display = "flex";
+        }
 
         console.log("yes :", data);
     } else {

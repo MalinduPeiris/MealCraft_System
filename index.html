@@ -24,19 +24,35 @@
                         <h5 id="navSiteName">FlavorVerse</h5>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-7">
                     <nav class="navItems mt-3">
-
-                        <a class="nav-link navLink active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link nav-link navLink active" aria-current="page"
-                            href="explorerMealPage.html">Categories</a>
-                        <a class="nav-link navLink active" aria-current="page" href="#">Areas</a>
-                        <a class="nav-link navLink active" aria-current="page"
-                            href="topIngredientsPage.html">Ingredience</a>
-                        <a class="nav-link navLink active" aria-current="page" href="#DiscoverRandomMeal">Random</a>
+                        <button class="navLinkButton" onclick="navBtnClicked(1)">
+                            <a id="nav1" class="nav-link navLink active" aria-current="page" href="#">Home</a>
+                        </button>
+                        <button class="navLinkButton" onclick="navBtnClicked(2)">
+                            <a id="nav2" class="nav-link nav-link navLink active" aria-current="page"
+                            href=" ">Categories</a>
+                        </button>
+                        <button class="navLinkButton" onclick="navBtnClicked(3)">
+                           <a id="nav3" class="nav-link navLink active" aria-current="page" href="#">Areas</a>
+                        </button>
+                        <button class="navLinkButton" onclick="navBtnClicked(4)">
+                            <a id="nav4" class="nav-link navLink active" aria-current="page"
+                            href=" ">Ingredience</a>
+                        </button>
+                        <button class="navLinkButton" onclick="navBtnClicked(5)">
+                            <a id="nav5" class="nav-link navLink active" aria-current="page" href=" ">Random</a>
+                        </button>
+                        <button class="navLinkButton" onclick="navBtnClicked(6)">
+                            <a id="nav6" class="nav-link navLink active" aria-current="page" href=" ">Trending Meals</a>
+                        </button>
+                        
+                        
+                        
+                        
                     </nav>
                 </div>
-                <div class="col-4 mt-3">
+                <div class="col-3 mt-3">
                     <div class="navSearcingSide">
 
                         <div class="navCartAndFavorite">
@@ -815,7 +831,7 @@
                                     allowfullscreen>
                                     <a href="https://www.youtube.com/embed/e52IL8zYmaE"></a>
                                 </iframe> -->
-                                <iframe class="video" width="600" height="340"
+                                <iframe id="mealsDetailsVideo" class="video" width="600" height="340"
                                     src="https://www.youtube.com/embed/e52IL8zYmaE" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -1338,6 +1354,7 @@
     <script src="assets/js/searchCategory.js"></script>
     <script src="assets/js/byArea.js"></script>
     <script src="assets/js/byIngredience.js"></script>
+    <script src="assets/js/navigation.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
