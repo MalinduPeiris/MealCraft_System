@@ -44,17 +44,7 @@ function navBtnClicked(number) {
             document.getElementById("mealsPageDiv").style.display = "none";
             document.getElementById(`nav${number}`).setAttribute("href", "#DiscoverRandomMeal");
             break;
-        }
-        case 6: {
-            document.getElementById("explorerMealPageDiv").style.display = "none";
-            document.getElementById("homePageDiv").style.display = "grid";
-            document.getElementById("selectedMealPageDiv").style.display = "none";
-            document.getElementById("ingredientsPageDiv").style.display = "none";
-            document.getElementById("mealsPageDiv").style.display = "none";
-            document.getElementById(`nav${number}`).setAttribute("href", "#TrendingMeals");
-            break;
-        }
-
+        }  
     }
 
 }

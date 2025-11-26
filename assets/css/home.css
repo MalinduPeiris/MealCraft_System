@@ -20,7 +20,7 @@ body {
 }
 
 .navv {
-    margin-top: 13 .9rem;
+    margin-top: 1.9rem;
 }
 
 #navMainLogo {
@@ -37,7 +37,7 @@ body {
 
 .navItems {
     display: flex;
-    /* gap: 1%; */
+    gap: 10%;
 }
 
 .navLink {
@@ -51,9 +51,14 @@ body {
     transform: translateY(-0.1rem);
     background: linear-gradient(90deg, #4facfe, #248f95);
     -webkit-background-clip: text;
-    color: transparent;
 
+    color: transparent;
+    box-shadow:
+        0 0 20px 5px rgba(255, 0, 150, 0.5),
+        0 0 40px 10px rgba(0, 200, 255, 0.3),
+        0 0 60px 15px rgba(0, 255, 150, 0.2);
     text-decoration: none;
+    border-radius: 0.5rem;
 }
 
 /* nav a.active {
@@ -77,13 +82,14 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     background-color: #0f0e0e;
 } */
-.navLinkButton{
+.navLinkButton {
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
     border: none;
     background-color: transparent;
 }
+
 .navSearchTxt {
     margin-left: 1.3rem;
     width: 90%;
@@ -146,11 +152,13 @@ body {
 .cartFavoriteSvg:hover {
     width: 55%;
 }
-.alignPart{
+
+.alignPart {
     display: flex;
-    height:.6rem;
+    height: .6rem;
     justify-content: center;
 }
+
 .hrAfterNav {
     width: 90%;
     border: none;
@@ -233,6 +241,7 @@ body {
     border: transparent;
     border-radius: .5rem;
 }
+
 .heroSearchBtn:hover {
     transform: translateY(-.2rem);
 }
@@ -270,6 +279,7 @@ body {
 
 .randomMealImg {
     width: 90%;
+    height: 19em;
     border-radius: 0.5rem;
 }
 
@@ -288,8 +298,6 @@ body {
 
 .randomMealButton:hover {
     transform: translateY(-0.2rem);
-    width: 31%;
-    height: 18%;
     box-shadow: 0px 2px 5px 1px rgb(239, 132, 96);
     color: black;
 }
@@ -301,12 +309,13 @@ body {
 
 /* //////////footer//////////// */
 
-.footerMain{
+.footerMain {
     text-align: center;
     background-color: #c3c3c36b;
     align-content: end;
     width: 100%;
 }
+
 .footerItems {
     display: flex;
     justify-content: center;
@@ -315,7 +324,8 @@ body {
 }
 
 .footerLink {
-color: #64481f;    font-weight: 500;
+    color: #64481f;
+    font-weight: 500;
     font-size: 1.05rem;
 }
 
@@ -329,11 +339,11 @@ color: #64481f;    font-weight: 500;
     text-decoration: none;
 }
 
-.explorerPageFooterMain{
+.explorerPageFooterMain {
     text-align: center;
     align-items: center;
     justify-items: center;
-        background-color: #c3c3c36b;
+    background-color: #c3c3c36b;
     width: 100%;
 }
 
@@ -343,7 +353,7 @@ color: #64481f;    font-weight: 500;
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////  -->
 */
 
-.heroDiv{
+.heroDiv {
     margin-top: 0px;
 }
 
@@ -454,7 +464,8 @@ color: #64481f;    font-weight: 500;
     align-items: center;
     justify-content: center;
 }
-.video{
+
+.video {
     border-radius: 0.5rem;
     box-shadow: 2px 5px 10px 4px black;
 }
@@ -475,14 +486,21 @@ color: #64481f;    font-weight: 500;
 }
 
 .heroImage {
-    width: 80%;
-    height: 35rem;
+    width: 70%;
+    height: 30rem;
     border-radius: 1rem;
+}
+
+.mealSiteImage {
+    width: 70%;
+    height: 30rem;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 10px 4px black;
 }
 
 .heroHTag {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 21%;
     font-size: 2.7rem;
     font-weight: 800;
@@ -492,7 +510,7 @@ color: #64481f;    font-weight: 500;
 
 .heroPTag {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 25%;
     font-weight: 600;
     font-size: 1.1rem;
@@ -501,7 +519,7 @@ color: #64481f;    font-weight: 500;
 
 .heroSearchingComponents {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 32%;
 }
 
@@ -538,6 +556,7 @@ color: #64481f;    font-weight: 500;
     border: transparent;
     border-radius: .5rem;
 }
+
 .heroSearchBtn:hover {
     transform: translateY(-0.2rem);
 }
@@ -573,7 +592,74 @@ color: #64481f;    font-weight: 500;
 }
 
 
+.visitMealButton {
+    background-color: rgb(255, 106, 0);
+    width: 25%;
+    height: 17%;
+    border: none;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    display: none;
+}
 
+.visitMealButton:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0px 2px 5px 1px rgb(239, 132, 96);
+    color: black;
+}
+
+.homeChangedBtn1 {
+    width: 90%;
+    height: 80%;
+    border-radius: 35%;
+}
+.homeChangedBtn1:hover {
+    transform: translateY(-.3rem);
+}
+
+.homeChangedBtn2 {
+    width: 95%;
+    height: 100%;
+    border-radius: 35%;
+}
+.homeChangedBtn2:hover {
+    transform: translateY(-.3rem);
+}
+
+.homeChangedBtn3 {
+    width: 95%;
+    height: 120%;
+    border-radius: 35%;
+}
+.homeChangedBtn3:hover {
+    transform: translateY(-.3rem);
+}
+
+.homeChangedBtn4 {
+    width: 95%;
+    height: 80%;
+    border-radius: 35%;
+}
+.homeChangedBtn4:hover {
+    transform: translateY(-.3rem);
+}
+
+.homeChangedBtn5 {
+    width: 90%;
+    height: 75%;
+    border-radius: 35%;
+}
+.homeChangedBtn5:hover {
+    transform: translateY(-.3rem);
+}
+
+
+
+
+
+.rowUp{
+    margin-top: -1.3rem;
+}
 
 
 
@@ -581,33 +667,22 @@ color: #64481f;    font-weight: 500;
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.explorerMealPageDiv{
+.explorerMealPageDiv {
     display: none;
 }
 
-.homePageDiv{
+.homePageDiv {
     display: grid;
 }
 
-.mealsPageDiv{
-    display: none;    
-}
-
-.ingredientsPageDiv{
-    display: none;
-}
-.selectedMealPageDiv{
+.mealsPageDiv {
     display: none;
 }
 
+.ingredientsPageDiv {
+    display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
+.selectedMealPageDiv {
+    display: none;
+}

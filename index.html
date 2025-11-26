@@ -24,35 +24,21 @@
                         <h5 id="navSiteName">FlavorVerse</h5>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-5">
                     <nav class="navItems mt-3">
-                        <button class="navLinkButton" onclick="navBtnClicked(1)">
-                            <a id="nav1" class="nav-link navLink active" aria-current="page" href="#">Home</a>
-                        </button>
-                        <button class="navLinkButton" onclick="navBtnClicked(2)">
-                            <a id="nav2" class="nav-link nav-link navLink active" aria-current="page"
-                            href=" ">Categories</a>
-                        </button>
-                        <button class="navLinkButton" onclick="navBtnClicked(3)">
-                           <a id="nav3" class="nav-link navLink active" aria-current="page" href="#">Areas</a>
-                        </button>
-                        <button class="navLinkButton" onclick="navBtnClicked(4)">
-                            <a id="nav4" class="nav-link navLink active" aria-current="page"
-                            href=" ">Ingredience</a>
-                        </button>
-                        <button class="navLinkButton" onclick="navBtnClicked(5)">
-                            <a id="nav5" class="nav-link navLink active" aria-current="page" href=" ">Random</a>
-                        </button>
-                        <button class="navLinkButton" onclick="navBtnClicked(6)">
-                            <a id="nav6" class="nav-link navLink active" aria-current="page" href=" ">Trending Meals</a>
-                        </button>
-                        
-                        
-                        
-                        
+                        <a id="nav1" class="nav-link navLink active" onclick="navBtnClicked(1)" aria-current="page"
+                            href="">Home</a>
+                        <a id="nav2" class="nav-link nav-link navLink active" onclick="navBtnClicked(2)"
+                            aria-current="page" href="">Categories</a>
+                        <a id="nav3" class="nav-link navLink active" onclick="navBtnClicked(3)" aria-current="page"
+                            href="">Areas</a>
+                        <a id="nav4" class="nav-link navLink active" onclick="navBtnClicked(4)" aria-current="page"
+                            href="">Ingredience</a>
+                        <a id="nav5" class="nav-link navLink active" onclick="navBtnClicked(5)" aria-current="page"
+                            href="">Random</a>
                     </nav>
                 </div>
-                <div class="col-3 mt-3">
+                <div class="col-5 mt-3">
                     <div class="navSearcingSide">
 
                         <div class="navCartAndFavorite">
@@ -85,7 +71,7 @@
 
     <div class="homePageDiv" id="homePageDiv">
         <section id="DiscoverSite">
-            <div class="container mt-lg-5">
+            <div class="container ">
                 <div class="row mt-5">
                     <div class="col-12">
                         <div class="heroMainDiv">
@@ -115,37 +101,37 @@
 
         <section id="ByCategories">
             <div class="container">
-                <div class="row mt-5">
+                <div class="row">
                     <div class="col-12">
                         <h5 class="browseTitles">Browse by Category</h5>
                     </div>
                 </div>
 
-                <div class="row mt-3">
+                <div class="row mt-3 rowSize">
                     <div class="col-2">
                         <button class="categoryBtn" onclick="categoryPage()">
-                            <img id="homeCategoryImg1" class="categoriesImages" src="assets/img/pasta.png" alt="">
+                            <img id="homeCategoryImg1" class="homeChangedBtn1" src="assets/img/pasta.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="categoryPage()">
-                            <img id="homeCategoryImg2" class="categoriesImages" src="assets/img/seafood.png" alt="">
+                            <img id="homeCategoryImg2" class="homeChangedBtn1" src="assets/img/seafood.png" alt="">
 
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="categoryPage()">
-                            <img id="homeCategoryImg3" class="categoriesImages" src="assets/img/vegetarian.png" alt="">
+                            <img id="homeCategoryImg3" class="homeChangedBtn1" src="assets/img/vegetarian.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="categoryPage()">
-                            <img id="homeCategoryImg4" class="categoriesImages" src="assets/img/desserts.png" alt="">
+                            <img id="homeCategoryImg4" class="homeChangedBtn1" src="assets/img/desserts.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="categoryPage()">
-                            <img id="homeCategoryImg5" class="categoriesImages" src="assets/img/miscellaneous.png"
+                            <img id="homeCategoryImg5" class="homeChangedBtn1" src="assets/img/miscellaneous.png"
                                 alt="">
                         </button>
                     </div>
@@ -176,7 +162,7 @@
 
         <section id="ByArea">
             <div class="container">
-                <div class="row mt-5">
+                <div class="row">
                     <div class="col-12">
                         <h5 class="browseTitles">Browse by Area</h5>
                     </div>
@@ -185,27 +171,27 @@
                 <div class="row mt-3">
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byAreaBtn()">
-                            <img class="categoriesImages" src="assets/img/italian.png" alt="">
+                            <img class="homeChangedBtn2" src="assets/img/italian.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byAreaBtn()">
-                            <img class="categoriesImages" src="assets/img/chinese.png" alt="">
+                            <img class="homeChangedBtn2" src="assets/img/chinese.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byAreaBtn()">
-                            <img class="categoriesImages" src="assets/img/mexican.png" alt="">
+                            <img class="homeChangedBtn2" src="assets/img/mexican.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byAreaBtn()">
-                            <img class="categoriesImages" src="assets/img/indian.png" alt="">
+                            <img class="homeChangedBtn2" src="assets/img/indian.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byAreaBtn()">
-                            <img class="categoriesImages" src="assets/img/japanese.png" alt="">
+                            <img class="homeChangedBtn2" src="assets/img/japanese.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
@@ -235,7 +221,7 @@
 
         <section id="ByIngredients">
             <div class="container">
-                <div class="row mt-5">
+                <div class="row">
                     <div class="col-12">
                         <h5 class="browseTitles">Browse by Ingredients</h5>
                     </div>
@@ -244,34 +230,34 @@
                 <div class="row mt-3">
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byIngredientBtn()">
-                            <img class="categoriesImages" src="assets/img/chiken.png" alt="">
+                            <img class="homeChangedBtn3" src="assets/img/chiken.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byIngredientBtn()">
-                            <img class="categoriesImages" src="assets/img/beef.png" alt="">
+                            <img class="homeChangedBtn3" src="assets/img/beef.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byIngredientBtn()">
-                            <img class="categoriesImages" src="assets/img/vegetables.png" alt="">
+                            <img class="homeChangedBtn3" src="assets/img/vegetables.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byIngredientBtn()">
-                            <img class="categoriesImages" src="assets/img/rice.png" alt="">
+                            <img class="homeChangedBtn3" src="assets/img/rice.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
                         <button class="categoryBtn" onclick="byIngredientBtn()">
-                            <img class="categoriesImages" src="assets/img/noodles.png" alt="">
+                            <img class="homeChangedBtn3" src="assets/img/noodles.png" alt="">
                         </button>
                     </div>
                     <div class="col-2">
 
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row mt-4">
                     <div class="col-2">
                         <p class="categoriesPTag mt-3">Chiken</p>
                     </div>
@@ -293,8 +279,8 @@
         </section>
 
         <section id="DiscoverRandomMeal">
-            <div class="container">
-                <div class="row mt-5">
+            <div class="container mb-5">
+                <div class="row">
                     <div class="col-12">
                         <h5 class="browseTitles">Discover a random meal</h5>
                     </div>
@@ -302,72 +288,16 @@
 
                 <div class="row mt-3">
                     <div class="col-5">
-                        <img class="randomMealImg" src="assets/img/mexican.png" alt="">
+                        <img id="randomMealImg" class="randomMealImg" src="assets/img/mexican.png" alt="">
                     </div>
                     <div class="col-6">
-                        <h5 class="randomMealHTag mt-4">Suprise Me</h5>
-                        <p class="randomMealPTag mt-2">Let us pick a meal for you and discover somthing new !</p>
-                        <button class="randomMealButton mt-4">Get a Random Meal</button>
+                        <h5 class="randomMealHTag mt-4" id="randomMealName">Suprise Me</h5>
+                        <p class="randomMealPTag mt-2" id="randomMealDetail">Let us pick a meal for you and discover
+                            somthing new !</p>
+                        <button class="randomMealButton mt-4" onclick="clickRandomBtn()">Get a Random Meal</button>
+                        <button class="visitMealButton mt-4" id="homeVisitMealBtn" onclick="homeViewRecipeBtn()">Visit
+                            Recipe</button>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="TrendingMeals">
-            <div class="container">
-                <div class="row mt-5">
-                    <div class="col-12">
-                        <h5 class="browseTitles">Trending Meals</h5>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-2">
-                        <button class="categoryBtn">
-                            <img class="categoriesImages" src="assets/img/spicyNoodle.png" alt="">
-                        </button>
-                    </div>
-                    <div class="col-2">
-                        <button class="categoryBtn">
-                            <img class="categoriesImages" src="assets/img/grilledSalmon.png" alt="">
-                        </button>
-                    </div>
-                    <div class="col-2">
-                        <button class="categoryBtn">
-                            <img class="categoriesImages" src="assets/img/veganTacos.png" alt="">
-                        </button>
-                    </div>
-                    <div class="col-2">
-                        <button class="categoryBtn">
-                            <img class="categoriesImages" src="assets/img/chocalateCake.png" alt="">
-                        </button>
-                    </div>
-                    <div class="col-2">
-                        <button class="categoryBtn">
-                            <img class="categoriesImages" src="assets/img/tomatoSoup.png" alt="">
-                        </button>
-                    </div>
-                    <div class="col-2">
-
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col-2">
-                        <p class="categoriesPTag mt-3">Spicy Noodles</p>
-                    </div>
-                    <div class="col-2">
-                        <p class="categoriesPTag mt-3">Grilled Salmon</p>
-                    </div>
-                    <div class="col-2">
-                        <p class="categoriesPTag mt-3">Vegan Tacos</p>
-                    </div>
-                    <div class="col-2">
-                        <p class="categoriesPTag mt-3">Chocalate Cake</p>
-                    </div>
-                    <div class="col-2">
-                        <p class="categoriesPTag mt-3">Tomato Soup</p>
-                    </div>
-                    <div class="col-2"></div>
                 </div>
             </div>
         </section>
@@ -423,97 +353,98 @@
                     <div class="row mt-5">
                         <div class="col-2" id="explorerDiv1">
                             <button class="categoryBtn" onclick="selectCategory(1)">
-                                <img id="explorerCategoryImg1" class="categoriesImages" src="assets/img/beef.png"
-                                    alt="">
+                                <img id="explorerCategoryImg1" class="homeChangedBtn3" src="assets/img/beef.png" alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv2">
                             <button class="categoryBtn" onclick="selectCategory(2)">
-                                <img id="explorerCategoryImg2" class="categoriesImages" src="assets/img/brakfast.png"
+                                <img id="explorerCategoryImg2" class="homeChangedBtn3" src="assets/img/brakfast.png"
                                     alt="">
 
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv3">
                             <button class="categoryBtn" onclick="selectCategory(3)">
-                                <img id="explorerCategoryImg3" class="categoriesImages" src="assets/img/chiken.png"
+                                <img id="explorerCategoryImg3" class="homeChangedBtn3" src="assets/img/chiken.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv4">
                             <button class="categoryBtn" onclick="selectCategory(4)">
-                                <img id="explorerCategoryImg4" class="categoriesImages" src="assets/img/desserts.png"
+                                <img id="explorerCategoryImg4" class="homeChangedBtn3" src="assets/img/desserts.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv5">
                             <button class="categoryBtn" onclick="selectCategory(5)">
-                                <img id="explorerCategoryImg5" class="categoriesImages" src="assets/img/goat.png"
-                                    alt="">
+                                <img id="explorerCategoryImg5" class="homeChangedBtn3" src="assets/img/goat.png" alt="">
                             </button>
                         </div>
                         <div class="col-2">
 
                         </div>
                     </div>
-                    <div class="row ">
+                    <div class="row mt-2" id="explorerRow1">
                         <div class="col-2" id="explorerPDiv1">
-                            <button onclick="passeExplorerBySelectedCountry(1)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(1)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP1" class="categoriesPTag mt-3">Beef</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv2">
-                            <button onclick="passeExplorerBySelectedCountry(2)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(2)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP2" class="categoriesPTag mt-3">Breakfast</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv3">
-                            <button onclick="passeExplorerBySelectedCountry(3)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(3)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP3" class="categoriesPTag mt-3">Chicken</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv4">
-                            <button onclick="passeExplorerBySelectedCountry(4)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(4)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP4" class="categoriesPTag mt-3">Dessert</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv5">
-                            <button onclick="passeExplorerBySelectedCountry(5)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(5)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP5" class="categoriesPTag mt-3">Goat</p>
                             </button>
                         </div>
                         <div class="col-2"></div>
                     </div>
 
-                    <div class="row mt-3">
+                    <div class="row mt-2">
                         <div class="col-2" id="explorerDiv6">
                             <button class="categoryBtn" onclick="selectCategory(6)">
-                                <img id="explorerCategoryImg6" class="categoriesImages" src="assets/img/lamb.png"
-                                    alt="">
+                                <img id="explorerCategoryImg6" class="homeChangedBtn4" src="assets/img/lamb.png" alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv7">
                             <button class="categoryBtn" onclick="selectCategory(7)">
-                                <img id="explorerCategoryImg7" class="categoriesImages"
+                                <img id="explorerCategoryImg7" class="homeChangedBtn4"
                                     src="assets/img/miscellaneous.png" alt="">
 
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv8">
                             <button class="categoryBtn" onclick="selectCategory(8)">
-                                <img id="explorerCategoryImg8" class="categoriesImages" src="assets/img/pasta.png"
+                                <img id="explorerCategoryImg8" class="homeChangedBtn4" src="assets/img/pasta.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv9">
                             <button class="categoryBtn" onclick="selectCategory(9)">
-                                <img id="explorerCategoryImg9" class="categoriesImages" src="assets/img/pork.png"
-                                    alt="">
+                                <img id="explorerCategoryImg9" class="homeChangedBtn4" src="assets/img/pork.png" alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv10">
                             <button class="categoryBtn" onclick="selectCategory(10)">
-                                <img id="explorerCategoryImg10" class="categoriesImages" src="assets/img/seafood.png"
+                                <img id="explorerCategoryImg10" class="homeChangedBtn4" src="assets/img/seafood.png"
                                     alt="">
                             </button>
                         </div>
@@ -521,57 +452,62 @@
 
                         </div>
                     </div>
-                    <div class="row ">
+                    <div class="row rowUp" id="explorerRow2">
                         <div class="col-2" id="explorerPDiv6">
-                            <button onclick="passeExplorerBySelectedCountry(6)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(6)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP6" class="categoriesPTag mt-3">Lamb</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv7">
-                            <button onclick="passeExplorerBySelectedCountry(7)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(7)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP7" class="categoriesPTag mt-3">Miscellaneous</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv8">
-                            <button onclick="passeExplorerBySelectedCountry(8)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(8)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP8" class="categoriesPTag mt-3">Pasta</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv9">
-                            <button onclick="passeExplorerBySelectedCountry(9)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(9)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP9" class="categoriesPTag mt-3">Pork</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv10">
-                            <button onclick="passeExplorerBySelectedCountry(10)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(10)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP10" class="categoriesPTag mt-3">Seafood</p>
                             </button>
                         </div>
                         <div class="col-2"></div>
                     </div>
-                    <div class="row mt-3">
+                    <div class="row mt-4">
                         <div class="col-2" id="explorerDiv11">
                             <button class="categoryBtn" onclick="selectCategory(11)">
-                                <img id="explorerCategoryImg11" class="categoriesImages" src="assets/img/side.png"
+                                <img id="explorerCategoryImg11" class="homeChangedBtn3" src="assets/img/side.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv12">
                             <button class="categoryBtn" onclick="selectCategory(12)">
-                                <img id="explorerCategoryImg12" class="categoriesImages" src="assets/img/starter.png"
+                                <img id="explorerCategoryImg12" class="homeChangedBtn3" src="assets/img/starter.png"
                                     alt="">
 
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv13">
                             <button class="categoryBtn" onclick="selectCategory(13)">
-                                <img id="explorerCategoryImg13" class="categoriesImages" src="assets/img/vegan.png"
+                                <img id="explorerCategoryImg13" class="homeChangedBtn3" src="assets/img/vegan.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="explorerDiv14">
                             <button class="categoryBtn" onclick="selectCategory(14)">
-                                <img id="explorerCategoryImg14" class="categoriesImages" src="assets/img/vegetarian.png"
+                                <img id="explorerCategoryImg14" class="homeChangedBtn3" src="assets/img/vegetarian.png"
                                     alt="">
                             </button>
                         </div>
@@ -582,24 +518,28 @@
                     </div>
 
 
-                    <div class="row ">
+                    <div class="row mt-4" id="explorerRow3">
                         <div class="col-2" id="explorerPDiv11">
-                            <button onclick="passeExplorerBySelectedCountry(11)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(11)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP11" class="categoriesPTag mt-3">Side</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv12">
-                            <button onclick="passeExplorerBySelectedCountry(12)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(12)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP12" class="categoriesPTag mt-3">Starter</p>
                             </button>
                         </div>
                         <div class="col-2" id="explorerPDiv13">
-                            <button onclick="passeExplorerBySelectedCountry(13)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(13)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP13" class="categoriesPTag mt-3">Vegan</p>
-                          </button>
+                            </button>
                         </div>
                         <div class="col-2" id="explorerPDiv14">
-                            <button  onclick="passeExplorerBySelectedCountry(14)" style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <button onclick="passeExplorerBySelectedCountry(14)"
+                                style="width: 100%;height: auto;background-color: transparent;border: none;">
                                 <p id="explorerCategoryP14" class="categoriesPTag mt-3">Vegetarian</p>
                             </button>
                         </div>
@@ -649,8 +589,8 @@
             <div class="container mt-lg-5">
                 <div class="row mt-lg-5">
                     <div class="col-12">
-                        <div class="heroMainDiv">
-                            <img class="heroImage" id="heroImage" src="assets/img/mealPageMainLogo.jpg" alt=""
+                        <div class="heroMainDiv mb-5">
+                            <img class="mealSiteImage" id="heroImage" src="assets/img/mealPageMainLogo.jpg" alt=""
                                 srcset="">
                         </div>
                     </div>
@@ -685,97 +625,97 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv1">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox1">
                                 <p class="ingredientsPtags" id="ingrediend1">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv2">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox2">
                                 <p class="ingredientsPtags" id="ingrediend2">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv3">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox3">
                                 <p class="ingredientsPtags" id="ingrediend3">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv4">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox4">
                                 <p class="ingredientsPtags" id="ingrediend4">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv5">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox5">
                                 <p class="ingredientsPtags" id="ingrediend5">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv6">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox6">
                                 <p class="ingredientsPtags" id="ingrediend6">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv7">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox7">
                                 <p class="ingredientsPtags" id="ingrediend7">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv8">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox8">
                                 <p class="ingredientsPtags" id="ingrediend8">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv9">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox9">
                                 <p class="ingredientsPtags" id="ingrediend9">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv10">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox10">
                                 <p class="ingredientsPtags" id="ingrediend10">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv11">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox11">
                                 <p class="ingredientsPtags" id="ingrediend11">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv12">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox12">
                                 <p class="ingredientsPtags" id="ingrediend12">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv13">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox13">
                                 <p class="ingredientsPtags" id="ingrediend13">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv14">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox14">
                                 <p class="ingredientsPtags" id="ingrediend14">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv15">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox15">
                                 <p class="ingredientsPtags" id="ingrediend15">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="ingredienMainDiv" id="ingredienMainDiv16">
-                                <input class="checkboxes" type="checkbox" name="" id="">
+                                <input class="checkboxes" type="checkbox" name="" id="checkBox16">
                                 <p class="ingredientsPtags" id="ingrediend16">1 red bell pepper , thinly sliced</p>
                             </div>
                         </div>
@@ -923,191 +863,201 @@
                 </div>
 
                 <div class="row mt-5">
-                        <div class="col-2" id="ingredientsDiv1">
-                            <button class="categoryBtn" onclick="selectIngredients(1)">
-                                <img id="ingredientsCategoryImg1" class="categoriesImages" src="assets/img/beef.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv2">
-                            <button class="categoryBtn" onclick="selectIngredients(2)">
-                                <img id="ingredientsCategoryImg2" class="categoriesImages" src="assets/img/brakfast.png"
-                                    alt="">
-
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv3">
-                            <button class="categoryBtn" onclick="selectIngredients(3)">
-                                <img id="ingredientsCategoryImg3" class="categoriesImages" src="assets/img/chiken.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv4">
-                            <button class="categoryBtn" onclick="selectIngredients(4)">
-                                <img id="ingredientsCategoryImg4" class="categoriesImages" src="assets/img/desserts.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv5">
-                            <button class="categoryBtn" onclick="selectIngredients(5)">
-                                <img id="ingredientsCategoryImg5" class="categoriesImages" src="assets/img/goat.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2">
-
-                        </div>
+                    <div class="col-2" id="ingredientsDiv1">
+                        <button class="categoryBtn" onclick="selectIngredients(1)">
+                            <img id="ingredientsCategoryImg1" class="homeChangedBtn5" src="assets/img/beef.png" alt="">
+                        </button>
                     </div>
-                    <div class="row ">
-                        <div class="col-2" id="ingredientsPDiv1">
-                            <button onclick="passeExplorerBySelectedingredients(1)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP1" class="categoriesPTag mt-3">Beef</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv2">
-                            <button onclick="passeExplorerBySelectedingredients(2)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP2" class="categoriesPTag mt-3">Breakfast</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv3">
-                            <button onclick="passeExplorerBySelectedingredients(3)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP3" class="categoriesPTag mt-3">Chicken</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv4">
-                            <button onclick="passeExplorerBySelectedingredients(4)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP4" class="categoriesPTag mt-3">Dessert</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv5">
-                            <button onclick="passeExplorerBySelectedingredients(5)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP5" class="categoriesPTag mt-3">Goat</p>
-                            </button>
-                        </div>
-                        <div class="col-2"></div>
+                    <div class="col-2" id="ingredientsDiv2">
+                        <button class="categoryBtn" onclick="selectIngredients(2)">
+                            <img id="ingredientsCategoryImg2" class="homeChangedBtn5" src="assets/img/brakfast.png"
+                                alt="">
+
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv3">
+                        <button class="categoryBtn" onclick="selectIngredients(3)">
+                            <img id="ingredientsCategoryImg3" class="homeChangedBtn5" src="assets/img/chiken.png"
+                                alt="">
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv4">
+                        <button class="categoryBtn" onclick="selectIngredients(4)">
+                            <img id="ingredientsCategoryImg4" class="homeChangedBtn5" src="assets/img/desserts.png"
+                                alt="">
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv5">
+                        <button class="categoryBtn" onclick="selectIngredients(5)">
+                            <img id="ingredientsCategoryImg5" class="homeChangedBtn5" src="assets/img/goat.png" alt="">
+                        </button>
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-2" id="ingredientsPDiv1">
+                        <button onclick="passeExplorerBySelectedingredients(1)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP1" class="categoriesPTag mt-3">Beef</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv2">
+                        <button onclick="passeExplorerBySelectedingredients(2)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP2" class="categoriesPTag mt-3">Breakfast</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv3">
+                        <button onclick="passeExplorerBySelectedingredients(3)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP3" class="categoriesPTag mt-3">Chicken</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv4">
+                        <button onclick="passeExplorerBySelectedingredients(4)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP4" class="categoriesPTag mt-3">Dessert</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv5">
+                        <button onclick="passeExplorerBySelectedingredients(5)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP5" class="categoriesPTag mt-3">Goat</p>
+                        </button>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-2" id="ingredientsDiv6">
+                        <button class="categoryBtn" onclick="selectIngredients(6)">
+                            <img id="ingredientsCategoryImg6" class="homeChangedBtn5" src="assets/img/lamb.png" alt="">
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv7">
+                        <button class="categoryBtn" onclick="selectIngredients(7)">
+                            <img id="ingredientsCategoryImg7" class="homeChangedBtn5"
+                                src="assets/img/miscellaneous.png" alt="">
+
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv8">
+                        <button class="categoryBtn" onclick="selectIngredients(8)">
+                            <img id="ingredientsCategoryImg8" class="homeChangedBtn5" src="assets/img/pasta.png"
+                                alt="">
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv9">
+                        <button class="categoryBtn" onclick="selectIngredients(9)">
+                            <img id="ingredientsCategoryImg9" class="homeChangedBtn5" src="assets/img/pork.png" alt="">
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv10">
+                        <button class="categoryBtn" onclick="selectIngredients(10)">
+                            <img id="ingredientsCategoryImg10" class="homeChangedBtn5" src="assets/img/seafood.png"
+                                alt="">
+                        </button>
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-2" id="ingredientsPDiv6">
+                        <button onclick="passeExplorerBySelectedingredients(6)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP6" class="categoriesPTag mt-3">Lamb</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv7">
+                        <button onclick="passeExplorerBySelectedingredients(7)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP7" class="categoriesPTag mt-3">Miscellaneous</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv8">
+                        <button onclick="passeExplorerBySelectedingredients(8)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP8" class="categoriesPTag mt-3">Pasta</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv9">
+                        <button onclick="passeExplorerBySelectedingredients(9)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP9" class="categoriesPTag mt-3">Pork</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv10">
+                        <button onclick="passeExplorerBySelectedingredients(10)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP10" class="categoriesPTag mt-3">Seafood</p>
+                        </button>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-2" id="ingredientsDiv11">
+                        <button class="categoryBtn" onclick="selectIngredients(11)">
+                            <img id="ingredientsCategoryImg11" class="homeChangedBtn5" src="assets/img/side.png"
+                                alt="">
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv12">
+                        <button class="categoryBtn" onclick="selectIngredients(12)">
+                            <img id="ingredientsCategoryImg12" class="homeChangedBtn5" src="assets/img/starter.png"
+                                alt="">
+
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv13">
+                        <button class="categoryBtn" onclick="selectIngredients(13)">
+                            <img id="ingredientsCategoryImg13" class="homeChangedBtn5" src="assets/img/vegan.png"
+                                alt="">
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsDiv14">
+                        <button class="categoryBtn" onclick="selectIngredients(14)">
+                            <img id="ingredientsCategoryImg14" class="homeChangedBtn5" src="assets/img/vegetarian.png"
+                                alt="">
+                        </button>
                     </div>
 
-                    <div class="row mt-3">
-                        <div class="col-2" id="ingredientsDiv6">
-                            <button class="categoryBtn" onclick="selectIngredients(6)">
-                                <img id="ingredientsCategoryImg6" class="categoriesImages" src="assets/img/lamb.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv7">
-                            <button class="categoryBtn" onclick="selectIngredients(7)">
-                                <img id="ingredientsCategoryImg7" class="categoriesImages"
-                                    src="assets/img/miscellaneous.png" alt="">
+                    <div class="col-4">
 
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv8">
-                            <button class="categoryBtn" onclick="selectIngredients(8)">
-                                <img id="ingredientsCategoryImg8" class="categoriesImages" src="assets/img/pasta.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv9">
-                            <button class="categoryBtn" onclick="selectIngredients(9)">
-                                <img id="ingredientsCategoryImg9" class="categoriesImages" src="assets/img/pork.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv10">
-                            <button class="categoryBtn" onclick="selectIngredients(10)">
-                                <img id="ingredientsCategoryImg10" class="categoriesImages" src="assets/img/seafood.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2">
-
-                        </div>
                     </div>
-                    <div class="row ">
-                        <div class="col-2" id="ingredientsPDiv6">
-                            <button onclick="passeExplorerBySelectedingredients(6)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP6" class="categoriesPTag mt-3">Lamb</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv7">
-                            <button onclick="passeExplorerBySelectedingredients(7)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP7" class="categoriesPTag mt-3">Miscellaneous</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv8">
-                            <button onclick="passeExplorerBySelectedingredients(8)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP8" class="categoriesPTag mt-3">Pasta</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv9">
-                            <button onclick="passeExplorerBySelectedingredients(9)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP9" class="categoriesPTag mt-3">Pork</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv10">
-                            <button onclick="passeExplorerBySelectedingredients(10)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP10" class="categoriesPTag mt-3">Seafood</p>
-                            </button>
-                        </div>
-                        <div class="col-2"></div>
+                </div>
+
+
+                <div class="row ">
+                    <div class="col-2" id="ingredientsPDiv11">
+                        <button onclick="passeExplorerBySelectedingredients(11)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP11" class="categoriesPTag mt-3">Side</p>
+                        </button>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-2" id="ingredientsDiv11">
-                            <button class="categoryBtn" onclick="selectIngredients(11)">
-                                <img id="ingredientsCategoryImg11" class="categoriesImages" src="assets/img/side.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv12">
-                            <button class="categoryBtn" onclick="selectIngredients(12)">
-                                <img id="ingredientsCategoryImg12" class="categoriesImages" src="assets/img/starter.png"
-                                    alt="">
-
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv13">
-                            <button class="categoryBtn" onclick="selectIngredients(13)">
-                                <img id="ingredientsCategoryImg13" class="categoriesImages" src="assets/img/vegan.png"
-                                    alt="">
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsDiv14">
-                            <button class="categoryBtn" onclick="selectIngredients(14)">
-                                <img id="ingredientsCategoryImg14" class="categoriesImages" src="assets/img/vegetarian.png"
-                                    alt="">
-                            </button>
-                        </div>
-
-                        <div class="col-4">
-
-                        </div>
+                    <div class="col-2" id="ingredientsPDiv12">
+                        <button onclick="passeExplorerBySelectedingredients(12)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP12" class="categoriesPTag mt-3">Starter</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv13">
+                        <button onclick="passeExplorerBySelectedingredients(13)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP13" class="categoriesPTag mt-3">Vegan</p>
+                        </button>
+                    </div>
+                    <div class="col-2" id="ingredientsPDiv14">
+                        <button onclick="passeExplorerBySelectedingredients(14)"
+                            style="width: 100%;height: auto;background-color: transparent;border: none;">
+                            <p id="ingredientsCategoryP14" class="categoriesPTag mt-3">Vegetarian</p>
+                        </button>
                     </div>
 
-
-                    <div class="row ">
-                        <div class="col-2" id="ingredientsPDiv11">
-                            <button onclick="passeExplorerBySelectedingredients(11)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP11" class="categoriesPTag mt-3">Side</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv12">
-                            <button onclick="passeExplorerBySelectedingredients(12)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP12" class="categoriesPTag mt-3">Starter</p>
-                            </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv13">
-                            <button onclick="passeExplorerBySelectedingredients(13)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP13" class="categoriesPTag mt-3">Vegan</p>
-                          </button>
-                        </div>
-                        <div class="col-2" id="ingredientsPDiv14">
-                            <button  onclick="passeExplorerBySelectedingredients(14)" style="width: 100%;height: auto;background-color: transparent;border: none;">
-                                <p id="ingredientsCategoryP14" class="categoriesPTag mt-3">Vegetarian</p>
-                            </button>
-                        </div>
-
-                        <div class="col-6"></div>
-                    </div>
+                    <div class="col-6"></div>
+                </div>
 
             </div>
         </section>
@@ -1136,32 +1086,32 @@
                     <div class="row mt-5">
                         <div class="col-2" id="selectedPageDiv1">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(1)">
-                                <img id="selectedPageCategoryImg1" class="categoriesImages" src="assets/img/beef.png"
+                                <img id="selectedPageCategoryImg1" class="homeChangedBtn5" src="assets/img/beef.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv2">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(2)">
-                                <img id="selectedPageCategoryImg2" class="categoriesImages"
+                                <img id="selectedPageCategoryImg2" class="homeChangedBtn5"
                                     src="assets/img/brakfast.png" alt="">
 
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv3">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(3)">
-                                <img id="selectedPageCategoryImg3" class="categoriesImages" src="assets/img/chiken.png"
+                                <img id="selectedPageCategoryImg3" class="homeChangedBtn5" src="assets/img/chiken.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv4">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(4)">
-                                <img id="selectedPageCategoryImg4" class="categoriesImages"
+                                <img id="selectedPageCategoryImg4" class="homeChangedBtn5"
                                     src="assets/img/desserts.png" alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv5">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(5)">
-                                <img id="selectedPageCategoryImg5" class="categoriesImages" src="assets/img/goat.png"
+                                <img id="selectedPageCategoryImg5" class="homeChangedBtn5" src="assets/img/goat.png"
                                     alt="">
                             </button>
                         </div>
@@ -1169,7 +1119,7 @@
 
                         </div>
                     </div>
-                    <div class="row ">
+                    <div class="row rowUp">
                         <div class="col-2" id="selectedPagePDiv1">
                             <p id="selectedPageCategoryP1" class="categoriesPTag mt-3">Beef</p>
                         </div>
@@ -1188,35 +1138,35 @@
                         <div class="col-2"></div>
                     </div>
 
-                    <div class="row mt-3">
+                    <div class="row mt-4 ">
                         <div class="col-2" id="selectedPageDiv6">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(6)">
-                                <img id="selectedPageCategoryImg6" class="categoriesImages" src="assets/img/lamb.png"
+                                <img id="selectedPageCategoryImg6" class="homeChangedBtn5" src="assets/img/lamb.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv7">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(7)">
-                                <img id="selectedPageCategoryImg7" class="categoriesImages"
+                                <img id="selectedPageCategoryImg7" class="homeChangedBtn5"
                                     src="assets/img/miscellaneous.png" alt="">
 
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv8">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(8)">
-                                <img id="selectedPageCategoryImg8" class="categoriesImages" src="assets/img/pasta.png"
+                                <img id="selectedPageCategoryImg8" class="homeChangedBtn5" src="assets/img/pasta.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv9">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(9)">
-                                <img id="selectedPageCategoryImg9" class="categoriesImages" src="assets/img/pork.png"
+                                <img id="selectedPageCategoryImg9" class="homeChangedBtn5" src="assets/img/pork.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv10">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(10)">
-                                <img id="selectedPageCategoryImg10" class="categoriesImages"
+                                <img id="selectedPageCategoryImg10" class="homeChangedBtn5"
                                     src="assets/img/seafood.png" alt="">
                             </button>
                         </div>
@@ -1242,34 +1192,41 @@
                         </div>
                         <div class="col-2"></div>
                     </div>
+                    <!-- ///////////////////////////////////////// -->
                     <div class="row mt-3">
                         <div class="col-2" id="selectedPageDiv11">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(11)">
-                                <img id="selectedPageCategoryImg11" class="categoriesImages" src="assets/img/side.png"
+                                <img id="selectedPageCategoryImg11" class="homeChangedBtn5" src="assets/img/side.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv12">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(12)">
-                                <img id="selectedPageCategoryImg12" class="categoriesImages"
+                                <img id="selectedPageCategoryImg12" class="homeChangedBtn5"
                                     src="assets/img/starter.png" alt="">
 
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv13">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(13)">
-                                <img id="selectedPageCategoryImg13" class="categoriesImages" src="assets/img/vegan.png"
+                                <img id="selectedPageCategoryImg13" class="homeChangedBtn5" src="assets/img/vegan.png"
                                     alt="">
                             </button>
                         </div>
                         <div class="col-2" id="selectedPageDiv14">
                             <button class="categoryBtn" onclick="selectCategorySelectedPage(14)">
-                                <img id="selectedPageCategoryImg14" class="categoriesImages"
+                                <img id="selectedPageCategoryImg14" class="homeChangedBtn5"
+                                    src="assets/img/vegetarian.png" alt="">
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv15">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(14)">
+                                <img id="selectedPageCategoryImg15" class="homeChangedBtn5"
                                     src="assets/img/vegetarian.png" alt="">
                             </button>
                         </div>
 
-                        <div class="col-4">
+                        <div class="col-2">
 
                         </div>
                     </div>
@@ -1288,9 +1245,134 @@
                         <div class="col-2" id="selectedPagePDiv14">
                             <p id="selectedPageCategoryP14" class="categoriesPTag mt-3">Vegetarian</p>
                         </div>
+                        <div class="col-2" id="selectedPagePDiv15">
+                            <p id="selectedPageCategoryP15" class="categoriesPTag mt-3">Vegetarian</p>
+                        </div>
 
-                        <div class="col-6"></div>
+                        <div class="col-4"></div>
                     </div>
+
+                    <!-- /////////////////////////////////////////////////////////////////////// -->
+
+                    <div class="row mt-3">
+                        <div class="col-2" id="selectedPageDiv16">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(11)">
+                                <img id="selectedPageCategoryImg16" class="homeChangedBtn5" src="assets/img/side.png"
+                                    alt="">
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv17">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(12)">
+                                <img id="selectedPageCategoryImg17" class="homeChangedBtn5"
+                                    src="assets/img/starter.png" alt="">
+
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv18">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(13)">
+                                <img id="selectedPageCategoryImg18" class="homeChangedBtn5" src="assets/img/vegan.png"
+                                    alt="">
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv19">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(14)">
+                                <img id="selectedPageCategoryImg19" class="homeChangedBtn5"
+                                    src="assets/img/vegetarian.png" alt="">
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv20">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(14)">
+                                <img id="selectedPageCategoryImg20" class="homeChangedBtn5"
+                                    src="assets/img/vegetarian.png" alt="">
+                            </button>
+                        </div>
+
+                        <div class="col-2">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row ">
+                        <div class="col-2" id="selectedPagePDiv16">
+                            <p id="selectedPageCategoryP16" class="categoriesPTag mt-3">Side</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv17">
+                            <p id="selectedPageCategoryP17" class="categoriesPTag mt-3">Starter</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv18">
+                            <p id="selectedPageCategoryP18" class="categoriesPTag mt-3">Vegan</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv19">
+                            <p id="selectedPageCategoryP19" class="categoriesPTag mt-3">Vegetarian</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv20">
+                            <p id="selectedPageCategoryP20" class="categoriesPTag mt-3">Vegetarian</p>
+                        </div>
+
+                        <div class="col-4"></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-2" id="selectedPageDiv21">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(11)">
+                                <img id="selectedPageCategoryImg21" class="homeChangedBtn5" src="assets/img/side.png"
+                                    alt="">
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv22">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(12)">
+                                <img id="selectedPageCategoryImg22" class="homeChangedBtn5"
+                                    src="assets/img/starter.png" alt="">
+
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv23">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(13)">
+                                <img id="selectedPageCategoryImg23" class="homeChangedBtn5" src="assets/img/vegan.png"
+                                    alt="">
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv24">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(14)">
+                                <img id="selectedPageCategoryImg24" class="homeChangedBtn5"
+                                    src="assets/img/vegetarian.png" alt="">
+                            </button>
+                        </div>
+                        <div class="col-2" id="selectedPageDiv25">
+                            <button class="categoryBtn" onclick="selectCategorySelectedPage(14)">
+                                <img id="selectedPageCategoryImg25" class="homeChangedBtn5"
+                                    src="assets/img/vegetarian.png" alt="">
+                            </button>
+                        </div>
+
+                        <div class="col-2">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row ">
+                        <div class="col-2" id="selectedPagePDiv21">
+                            <p id="selectedPageCategoryP21" class="categoriesPTag mt-3">Side</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv22">
+                            <p id="selectedPageCategoryP22" class="categoriesPTag mt-3">Starter</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv23">
+                            <p id="selectedPageCategoryP23" class="categoriesPTag mt-3">Vegan</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv24">
+                            <p id="selectedPageCategoryP24" class="categoriesPTag mt-3">Vegetarian</p>
+                        </div>
+                        <div class="col-2" id="selectedPagePDiv25">
+                            <p id="selectedPageCategoryP25" class="categoriesPTag mt-3">Vegetarian</p>
+                        </div>
+
+                        <div class="col-4"></div>
+                    </div>
+
+
+
 
                 </div>
             </section>
@@ -1323,30 +1405,6 @@
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -1355,6 +1413,8 @@
     <script src="assets/js/byArea.js"></script>
     <script src="assets/js/byIngredience.js"></script>
     <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/randomMeal.js"></script>
+    <script src="assets/js/trendingMeals.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
